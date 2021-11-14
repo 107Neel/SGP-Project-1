@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - page</title>
+    <link rel="stylesheet" href="singup2.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(function(){
+      $('#header').load("newheader.html");
+    });
+    $(function(){
+      $('#footer').load("footer.html");
+    });
+  </script>
+</head>
+<body>
+   <div id="header"></div>
+    <form>
+        <div class="container">
+          <h1>Sign Up</h1>
+          <hr>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" id="email" name="email" required>
+
+          <label for="email"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" id="uname" name="username" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" id="pwd" name="password" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="pwdr" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+          <br>
+            <button type="submit" class="signupbtn" onclick="check()">Sign Up</button>
+           
+          
+        </div>
+      </form>
+      
+    
+
+       <div id="footer"></div>
+</body>
+</html>

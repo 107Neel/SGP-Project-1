@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment booking Page</title>
+    <link rel="stylesheet" href="bookform.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+
+  <script>
+    $(function(){
+      $('#header').load("newheader.html");
+    });
+    $(function(){
+      $('#footer').load("footer.html");
+    });
+  </script>
+</head>
+<body>
+    
+    <div id="header"></div>
+    <form>
+        <div class="container">
+            <center><h1>Book Appointment Now</h1></center>
+          <hr>
+         
+          <label for="name"><h3>patient  First Name</h3></label>
+          <input type="text" placeholder="First name" id="name" name="name" required>
+
+          <label for="name"><h3>patient  Middle Name</h3></label>
+          <input type="text" placeholder="Middle name" id="name" name="name" required>
+
+          <label for="name"><h3>patient  SurName</h3></label>
+          <input type="text" placeholder="Surname" id="name" name="name" required>
+
+          <label for="tel"><h3>Mobile Number</h3></label>
+          <input type="tel" placeholder="Enter number" id="Number" name="number" required>
+      
+          <label for="email"><h3>Email Address</h3></label>
+          <input type="email" placeholder="Enter email" id="email" name="email" required>
+      
+          <label for="input-group"><h3>Select Doctor</h3></label><br>
+          <select type="input-group" id="input-group" placeholder="select doctor" required>
+            <option value="">select doctor</option>
+            <option value="">A.M.PATEL, phy</option>
+            <option value="">D.B.BABARIYA, scy</option>
+            <option value="">P.J.KALAL, nuro</option>
+            <option value="">H.K.ZAZURIYA, gayneco</option>
+            <option value="">M.N.NAIK, ortho</option>
+            <option value="">J.J.KUMAR, dentist</option>
+        </select>
+        <br>
+        <label for="date"><h3>The Date & Time</h3></label><br>
+          <input type="datetime-local" placeholder="Enter Date" id="email" name="email" required>
+
+          
+          <br>
+            <button type="submit" class="signupbtn" onclick="check()">Book Appointment</button>
+            <button type="reset" class="cancelbtn" >Cancel</button>
+           
+          
+        </div>
+      
+    </form>
+      
+      
+    
+
+       <div id="footer"></div>
+</body>
+</html>

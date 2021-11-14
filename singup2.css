@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Didact Gothic');
+
+*{
+
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  rgb(111, 182, 89) 0%, rgb(156, 221, 143) 46.2%, rgb(235, 240, 215) 90.1% );
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #d8d8df;
+  border-radius: 15px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #d8d8df;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #d8d8df;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+button:hover {
+  opacity:1;
+  background-color: rgb(10, 150, 21);
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  margin-left:  15mm;
+  background-color: #00afe4;
+  color: rgb(16, 17, 17);
+}
+.signupbtn{
+    background-color:  rgb(6, 255, 27);
+    color: rgb(13, 15, 15);
+    font-size: 30px;
+  font-family: Didact Gothic;
+    font-weight: bold;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 40%;
+  font-size: 6mm;
+}
+
+/* Add padding to container elements */
+.container {
+    width: 600px;  
+    overflow: hidden;  
+    margin: auto;
+    margin-top: 4cm;
+    margin-bottom: 2cm;  
+    margin: 20 0 0 600px;  
+    padding: 80px;  
+    background-color: rgb(255, 254, 254);  
+    border-radius: 15px ;
+}
+
+/* Clear floats 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+button{
+    border-radius: 25px;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}

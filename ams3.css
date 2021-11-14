@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Didact Gothic');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*for login*/
+body{
+
+    background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  rgba(252,37,103,1) 0%, rgb(253, 153, 192) 46.2%, rgb(255, 197, 242) 90.1% );
+    font-family: didact gothic;
+
+} 
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #d8d8df;
+  color: rgb(5, 5, 8);
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #d8d8df;
+}
+.login{  
+  width: 500px;  
+  overflow: hidden;  
+  margin: auto;
+  margin-top: 4cm;
+  margin-bottom: 2cm;
+  margin: 20 0 0 500px;  
+  padding: 60px;  
+  background-color: white;
+  border-radius: 15px ;  
+    
+}
+
+label{  
+  color: black;  
+  font-size: 22px;
+  padding-right: 300px;  
+}
+hr {
+  border: 1px solid #0a0909;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: rgba(252,37,103,1);
+  color: rgb(15, 15, 15);
+  font-size: 5mm;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 3px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 15px;
+}
+span{  
+  color: black;  
+  font-size: 17px; 
+   
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
+
+

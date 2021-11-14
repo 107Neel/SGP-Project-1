@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCMEET - Login</title>
+    <link rel="stylesheet" href="ams3.css">
+    <script src="ams3.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(function(){
+      $('#header').load("newheader.html");
+    });
+    $(function(){
+      $('#footer').load("footer.html");
+    });
+  </script>
+</head>
+<body>
+  <div id="header"></div>
+    <div class="mainbox">
+    <form method="post">
+        <div class="login">
+          <h1>Sign In</h1>
+          <hr>
+          <label for="email"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" >
+          
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" >
+          
+          <button type="submit" >Login</button>
+          
+          <span><input type="checkbox" checked="checked" name="remember">
+          <b>remember me</b>
+          <br><br><br><br>
+          <b><center>haven't any account ?</center></b>
+          <button><a href="singup2.html" style="text-decoration: none; color: black;">create new account</a></button>
+
+        </div>
+      </div>
+      
+    <div id="footer"></div>
+</body>
+</html>
